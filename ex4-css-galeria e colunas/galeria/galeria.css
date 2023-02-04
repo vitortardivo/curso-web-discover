@@ -1,0 +1,25 @@
+
+
+.gal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    gap:20px;
+    justify-content: center;
+}
+
+img{
+    width: 76px;
+    height: 76px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+height: 80px;
+width: 160px;
+}

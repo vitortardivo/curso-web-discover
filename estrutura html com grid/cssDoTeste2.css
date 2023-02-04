@@ -1,0 +1,43 @@
+div{
+    display:grid;
+    grid-template-areas:
+    "header header"
+    "header2 header2"
+    "main aside"
+    "footer footer";
+
+    grid-template-columns: 200fr 300px;
+    grid-template-rows: 50fr 100px 100px 100px;
+
+    font-style:italic;
+}
+
+header2{
+    grid-area: header2;
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+}
+
+aside{
+    grid-area: aside;
+    background-color:aqua;
+}
+
+main{
+    grid-area: main;
+    background-color: bisque;
+}
+
+footer{
+    grid-area:footer;
+    background-color:green;
+}
+
+div{
+    height: 200px;
+    width: 400px;
+}
+

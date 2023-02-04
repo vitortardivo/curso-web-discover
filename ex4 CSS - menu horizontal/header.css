@@ -1,0 +1,52 @@
+.box{
+    border: 1px red solid;
+    height: 80px;
+    width:1000px;
+    display:flex;
+    background-color: lightblue;
+}
+
+.inside{
+    border: 1px blue solid;
+    height: 1000px;
+    width:1000px;
+    display:flex;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+
+div{
+    /* border: 1px black solid; */
+    height: 80px;
+    width:1000px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:0.8rem
+
+    
+}
+.logo{
+    padding: 0px;
+    justify-content: flex-start;
+    flex-grow:3;
+    
+}
+
+.hbutton{
+
+    height: 60px;
+    width: 70px;
+    
+}
+.es{
+    padding:2px;
+    color:green;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: 4;
+}
+

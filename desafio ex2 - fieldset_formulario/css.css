@@ -1,0 +1,8 @@
+fieldset{
+
+    margin:20px;
+    outline:20px groove rgb(252, 185, 62);
+    width:200px;
+    background:linear-gradient(#00000000,#0000ff);
+}
+

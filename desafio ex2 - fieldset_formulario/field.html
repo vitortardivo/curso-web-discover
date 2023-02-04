@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./css.css">
+<html>
+
+<head>
+<title>ex2 / desafio</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+    
+        <form action="" method="post" id="contato">
+            <fieldset title="contato">
+            <legend>
+                Contato
+            </legend>
+            <label for="nome">nome</label>
+            <input type="text" form="contato" required title="A a z 20 letras" pattern="[a-zA-Z]{1,20}" placeholder="Digite o nome" name="nome">
+            
+            <br>
+            <br>
+    
+            <label for="email">Email</label>
+            <input type="text" form="contato" name="email" title="coloque um email com @gmail.com" pattern=".+@gmail\.com" placeholder="digite seu email" required>
+    
+            <br>
+            <br>
+            <label for="texto" position="top"> texto</label>
+            <br>
+            <textarea minlength="2" required maxlength="2000" form="contato" id="texto" cols="30" rows="10" placeholder="texto"></textarea>
+            <br>
+            <br>
+    
+            <button form="contato" > enviar</button>
+            
+            </fieldset>
+        </form>
+    
+
+    
+</body>
+
+
+
+</html>
